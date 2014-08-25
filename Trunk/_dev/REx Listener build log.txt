@@ -1,0 +1,4087 @@
+7/27/2011 2:01:03 PM
+
+[AB_L New Build](0.146)(126290):
+Project:REx.lvproj
+Target:My Computer
+BuildSpec:Listener
+OS:Windows 95/NT
+LabVIEW Version: 10.0.1
+
+[AB_L ProjectFileData](0.146)(126290):
+NOTE:This data will be stale if the build spec has been modified and the project file has not been saved!
+
+<Item Name="Listener" Type="EXE">
+<Property Name="App_copyErrors" Type="Bool">true</Property>
+<Property Name="App_INI_aliasGUID" Type="Str">{38F268AF-C788-4063-B1DC-F15AE6613FBF}</Property>
+<Property Name="App_INI_GUID" Type="Str">{37CBBBC7-FF66-46E2-AE77-CD8318866A7B}</Property>
+<Property Name="App_INI_itemID" Type="Ref">/My Computer/Demo/REx Listener.ini</Property>
+<Property Name="Bld_buildSpecName" Type="Str">Listener</Property>
+<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+<Property Name="Bld_localDestDir" Type="Path">../_dev/demos</Property>
+<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+<Property Name="Destination[0].destName" Type="Str">REx Listener.exe</Property>
+<Property Name="Destination[0].path" Type="Path">../_dev/demos/REx Listener.exe</Property>
+<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+<Property Name="Destination[0].type" Type="Str">App</Property>
+<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+<Property Name="Destination[1].path" Type="Path">../_dev/demos/data</Property>
+<Property Name="DestinationCount" Type="Int">2</Property>
+<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+<Property Name="Source[0].itemID" Type="Str">{311C1F0F-9928-4F32-A8AA-F3E3E3679B77}</Property>
+<Property Name="Source[0].type" Type="Str">Container</Property>
+<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+<Property Name="Source[1].itemID" Type="Ref">/My Computer/Demo/DEMO - Command Listener.vi</Property>
+<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+<Property Name="Source[1].type" Type="Str">VI</Property>
+<Property Name="SourceCount" Type="Int">2</Property>
+<Property Name="TgtF_companyName" Type="Str">NI</Property>
+<Property Name="TgtF_fileDescription" Type="Str">Listener</Property>
+<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+<Property Name="TgtF_internalName" Type="Str">Listener</Property>
+<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2011 NI</Property>
+<Property Name="TgtF_productName" Type="Str">Listener</Property>
+<Property Name="TgtF_targetfileGUID" Type="Str">{059921FD-A4D3-410A-9DA3-73B9B679FAF9}</Property>
+<Property Name="TgtF_targetfileName" Type="Str">REx Listener.exe</Property>
+</Item>
+
+[AB_L Before Build Class Data](5.083)(141610):
+buildSpecName:Listener
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[]
+buildContext:11389603844167041024
+buildObject:285213336
+preview:FALSE
+targetfileName:REx Listener.exe
+enableDebugging:FALSE
+INI_path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\REx Listener.ini
+INI_itemID:{A7A24F1F-C61D-466E-8343-74D99612AAB1}
+aliasPath:
+aliasItemID:
+waitDebugging:FALSE
+copyErrors:TRUE
+useFFRTE:FALSE
+includeHWConfig:FALSE
+showHWConfig:FALSE
+cmdLineArgs:TRUE
+actXServerName:
+iconPath:
+iconItemID:
+
+
+Source[0] (Container)
+path:
+itemID:{501D80CE-F325-4E70-AD60-7789009A3080}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (VI)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+itemID:{7DB01392-2083-4217-A1A1-6B2E3035C77B}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:REx Listener.exe
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Applied Container Class Data](5.084)(141614):
+buildSpecName:Listener
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[]
+buildContext:11389603844167041024
+buildObject:285213336
+preview:FALSE
+targetfileName:REx Listener.exe
+enableDebugging:FALSE
+INI_path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\REx Listener.ini
+INI_itemID:{A7A24F1F-C61D-466E-8343-74D99612AAB1}
+aliasPath:
+aliasItemID:
+waitDebugging:FALSE
+copyErrors:TRUE
+useFFRTE:FALSE
+includeHWConfig:FALSE
+showHWConfig:FALSE
+cmdLineArgs:TRUE
+actXServerName:
+iconPath:
+iconItemID:
+
+
+Source[0] (Container)
+path:
+itemID:{501D80CE-F325-4E70-AD60-7789009A3080}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (VI)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+itemID:{7DB01392-2083-4217-A1A1-6B2E3035C77B}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[]
+newName:DEMO - Command Listener.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:REx Listener.exe
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Opened TopLevel](5.749)(145461):
+
+[AB_L Linker Info](5.755)(145477):
+LinksToInclude:Exclusions -
+Edit time Dep: 1
+Typedefs: 0
+Poly VIs: 1
+Unsed lib items:1
+TopLevelPaths:
+C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+
+
+[AB_L Post Linker](5.826)(145737):
+
+[AB_L Linker Items](5.942)(145749):
+
+LinkerItem[0] (existing source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+delimted name:DEMO - Command Listener.vi
+type:Instrument
+buttons:0
+viflags2:536870912
+links:[1,47,64,6,40,4,5,49,68,71,69]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+itemID:{7DB01392-2083-4217-A1A1-6B2E3035C77B}
+containerIndex:-1
+sourceInclusion:TopLevel
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:DEMO - Command Listener.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:DEMO - Command Listener.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[1] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+delimted name:Alpha Cmd.lvclass:STYP - Command Data Element.ctl
+type:Control
+buttons:188
+viflags2:536870920
+links:[2]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:STYP - Command Data Element.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass:STYP - Command Data Element.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[2] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+delimted name:Alpha Cmd.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[3,1,4,5,6,50,11]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Alpha Cmd.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[3] (excluded)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Alpha Cmd.lvclass\Alpha Cmd.ctl
+delimted name:Alpha Cmd.lvclass:Alpha Cmd.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[2,1]
+linker inclusion:exclude
+
+LinkerItem[4] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\get Command Data Element.vi
+delimted name:Alpha Cmd.lvclass:get Command Data Element.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[2,1,3]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\get Command Data Element.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Command Data Element.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass:get Command Data Element.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[5] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\set Command Data Element.vi
+delimted name:Alpha Cmd.lvclass:set Command Data Element.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[2,1,3]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\set Command Data Element.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Command Data Element.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass:set Command Data Element.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[6] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Obtain Command Event.vi
+delimted name:Alpha Cmd.lvclass:Obtain Command Event.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[2,7,8,43,47,44,42]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Obtain Command Event.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Obtain Command Event.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass:Obtain Command Event.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[7] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+delimted name:REx.lvlib:Local Listener Session.lvclass:Session Handle.ctl
+type:Control
+buttons:188
+viflags2:536870920
+links:[8]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Session Handle.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:Session Handle.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[8] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+delimted name:REx.lvlib:Local Listener Session.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[9,10,26,39,41,42,43,44,45,46,7,48,47,49,40,27]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Local Listener Session.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[9] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\REx.lvlib
+delimted name:REx.lvlib
+type:Library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\REx.lvlib
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:REx.lvlib
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[10] (excluded)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Local Listener Session.lvclass\Local Listener Session.ctl
+delimted name:REx.lvlib:Local Listener Session.lvclass:Local Listener Session.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[8,11]
+linker inclusion:exclude
+
+LinkerItem[11] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\REx Command - Root.lvclass
+delimted name:REx.lvlib:REx Command - Root.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[9,12,13,14,15,16,17,18,25]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\REx Command - Root.lvclass
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:REx Command - Root.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[12] (excluded)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\REx Command - Root.lvclass\REx Command - Root.ctl
+delimted name:REx.lvlib:REx Command - Root.lvclass:REx Command - Root.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[11]
+linker inclusion:exclude
+
+LinkerItem[13] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Wait For Response.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:get Wait For Response.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Wait For Response.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Wait For Response.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:get Wait For Response.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[14] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Wait For Response.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:set Wait For Response.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Wait For Response.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Wait For Response.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:set Wait For Response.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[15] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Timeout.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:get Timeout.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Timeout.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Timeout.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:get Timeout.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[16] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Timeout.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:set Timeout.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Timeout.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Timeout.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:set Timeout.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[17] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\send Command Response.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:send Command Response.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\send Command Response.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:send Command Response.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:send Command Response.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[18] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:compute Command Listener ID.vi
+type:Instrument
+buttons:4096
+viflags2:536871424
+links:[11,19]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:compute Command Listener ID.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:compute Command Listener ID.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[19] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\LVClass\Get LV Class Path.vi
+delimted name:Get LV Class Path.vi
+type:Instrument
+buttons:0
+viflags2:1049088
+links:[20,21,22]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\LVClass\Get LV Class Path.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Get LV Class Path.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Get LV Class Path.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[20] (not valid)
+path:LabVIEW
+delimted name:LabVIEW
+type:Shared library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Source)
+(path:
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:FALSE
+eng_isNonVILink:TRUE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE)
+
+LinkerItem[21] (not valid)
+path:C:\Program Files\National Instruments\LabVIEW 2010\help\glang.chm
+delimted name:glang.chm
+type:Help file
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Source)
+(path:
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:FALSE
+eng_isNonVILink:TRUE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE)
+
+LinkerItem[22] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+delimted name:Error Cluster From Error Code.vi
+type:Instrument
+buttons:0
+viflags2:0
+links:[21,23,24]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Error Cluster From Error Code.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Error Cluster From Error Code.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[23] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\whitespace.ctl
+delimted name:whitespace.ctl
+type:Control
+buttons:188
+viflags2:8
+links:[]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\whitespace.ctl
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:whitespace.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:whitespace.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[24] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Trim Whitespace.vi
+delimted name:Trim Whitespace.vi
+type:Instrument
+buttons:161
+viflags2:512
+links:[21,23]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Trim Whitespace.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Trim Whitespace.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Trim Whitespace.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[25] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Response Notifier.vi
+delimted name:REx.lvlib:REx Command - Root.lvclass:set Response Notifier.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[11,12]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Response Notifier.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Response Notifier.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:REx Command - Root.lvclass:set Response Notifier.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[26] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:initialize Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:128
+links:[8,27,10]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:initialize Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:initialize Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[27] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Session - Root.lvclass
+delimted name:Session - Root.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[28,29,31,32,30,33,34,35,36,37,38]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Session - Root.lvclass
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Session - Root.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[28] (excluded)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Session - Root.lvclass\Session - Root.ctl
+delimted name:Session - Root.lvclass:Session - Root.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[27]
+linker inclusion:exclude
+
+LinkerItem[29] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+delimted name:Session - Root.lvclass:_get Session Name for PN.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[27,30]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:_get Session Name for PN.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:_get Session Name for PN.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[30] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Name.vi
+delimted name:Session - Root.lvclass:get Session Name.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[27,28]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Name.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Session Name.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:get Session Name.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[31] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+delimted name:Session - Root.lvclass:get Session Handle Queue.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[27,28]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Session Handle Queue.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:get Session Handle Queue.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[32] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+delimted name:Session - Root.lvclass:set Session Handle Queue.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[27,28]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Session Handle Queue.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:set Session Handle Queue.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[33] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+delimted name:Session - Root.lvclass:initialize Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:512
+links:[27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:initialize Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:initialize Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[34] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+delimted name:Session - Root.lvclass:clear Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:512
+links:[27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:clear Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:clear Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[35] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\set Defaults.vi
+delimted name:Session - Root.lvclass:set Defaults.vi
+type:Instrument
+buttons:4096
+viflags2:512
+links:[27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\set Defaults.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Defaults.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:set Defaults.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[36] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+delimted name:Session - Root.lvclass:Session Handle.ctl
+type:Instrument
+buttons:188
+viflags2:536870920
+links:[27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Session Handle.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:Session Handle.ctl
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[37] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+delimted name:Session - Root.lvclass:ROOT - Obtain Session.vi
+type:Instrument
+buttons:0
+viflags2:0
+links:[27,36,28,32,37]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:ROOT - Obtain Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:ROOT - Obtain Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[38] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Release Session.vi
+delimted name:Session - Root.lvclass:ROOT - Release Session.vi
+type:Instrument
+buttons:4096
+viflags2:8
+links:[27,36,31]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Release Session.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:ROOT - Release Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Session - Root.lvclass:ROOT - Release Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[39] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:clear Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:536871040
+links:[8,7,27,10,40]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:clear Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:clear Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[40] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Release Session.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:Release Session.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[8,7,39]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Release Session.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Release Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:Release Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[41] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:set Defaults.vi
+type:Instrument
+buttons:4096
+viflags2:128
+links:[8,27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Defaults.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:set Defaults.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[42] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\store Listener Command.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:store Listener Command.vi
+type:Instrument
+buttons:0
+viflags2:536871432
+links:[8,7,10,43]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\store Listener Command.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:store Listener Command.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:store Listener Command.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[43] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get ListenerID.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:get ListenerID.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[8,7,10,30]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get ListenerID.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get ListenerID.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:get ListenerID.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[44] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get REx Event.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:get REx Event.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[8,7,11,10]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get REx Event.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get REx Event.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:get REx Event.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[45] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:Tool - Check Timeout.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[8]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Tool - Check Timeout.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:Tool - Check Timeout.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[46] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:EXPORT - Invoke Command.vi
+type:Instrument
+buttons:0
+viflags2:536870912
+links:[8,11,10,15,40,47,45,43,13,25]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:EXPORT - Invoke Command.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:EXPORT - Invoke Command.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[47] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Obtain Session.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:Obtain Session.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[8,7,11,10,26,37,44]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Obtain Session.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Obtain Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:Obtain Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[48] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+delimted name:REx.lvlib:Local Listener Session.lvclass:DVR Based Method.vit
+type:Instrument
+buttons:0
+viflags2:536871464
+links:[8,7]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:DVR Based Method.vit
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:DVR Based Method.vit
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[49] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\send Command Response.vi
+delimted name:REx.lvlib:Local Listener Session.lvclass:send Command Response.vi
+type:Instrument
+buttons:0
+viflags2:520
+links:[8,7,11,17]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\send Command Response.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:send Command Response.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Local Listener Session.lvclass:send Command Response.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[50] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\REx - Send Command.vi
+delimted name:Alpha Cmd.lvclass:REx - Send Command.vi
+type:Instrument
+buttons:0
+viflags2:536870912
+links:[2,51,52,1,5,16,14,59,4]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\REx - Send Command.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:REx - Send Command.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Alpha Cmd.lvclass:REx - Send Command.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[51] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Session Handle.ctl
+type:Control
+buttons:188
+viflags2:536870920
+links:[52]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Session Handle.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Session Handle.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[52] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+delimted name:REx.lvlib:Remote Connection Session.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[9,53,54,56,57,58,59,60,61,55,51,62,63,27]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Remote Connection Session.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[53] (excluded)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass\Remote Connection Session.ctl
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Remote Connection Session.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[52,11]
+linker inclusion:exclude
+
+LinkerItem[54] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:initialize Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:128
+links:[52,27,53,46,55]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:initialize Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:initialize Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[55] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Validate Remote Session.vi
+type:Instrument
+buttons:0
+viflags2:536870912
+links:[52,53,40,47,22]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Validate Remote Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Validate Remote Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[56] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:clear Session Data.vi
+type:Instrument
+buttons:4096
+viflags2:536871040
+links:[52,27,53]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:clear Session Data.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:clear Session Data.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[57] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:set Defaults.vi
+type:Instrument
+buttons:4096
+viflags2:128
+links:[52,27]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Defaults.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:set Defaults.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:TRUE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[58] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Create UID.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[52,53]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Create UID.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Create UID.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[59] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Send Command.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Send Command.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[52,51,11,53,46]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Send Command.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Send Command.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Send Command.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[60] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Port).vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[52,51,53,54,58,37]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Obtain Session (Port).vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Port).vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[61] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Service Name).vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[52,51,53,54,58,37]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Obtain Session (Service Name).vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Service Name).vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[62] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+delimted name:REx.lvlib:Remote Connection Session.lvclass:DVR Based Method.vit
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[52,51]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:DVR Based Method.vit
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:DVR Based Method.vit
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[63] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Release Session.vi
+delimted name:REx.lvlib:Remote Connection Session.lvclass:Release Session.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[52,51,56]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Release Session.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Release Session.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:REx.lvlib:Remote Connection Session.lvclass:Release Session.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[64] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Obtain Command Event.vi
+delimted name:Beta Cmd.lvclass:Obtain Command Event.vi
+type:Instrument
+buttons:0
+viflags2:536871424
+links:[65,7,8,43,47,44,42]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Obtain Command Event.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Obtain Command Event.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass:Obtain Command Event.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[65] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Beta Cmd.lvclass
+delimted name:Beta Cmd.lvclass
+type:LVClass
+buttons:0
+viflags2:0
+links:[66,67,68,69,64,70,11]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Beta Cmd.lvclass
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:Beta Cmd.lvclass
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:FALSE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[66] (excluded)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Beta Cmd.lvclass\Beta Cmd.ctl
+delimted name:Beta Cmd.lvclass:Beta Cmd.ctl
+type:Class Private Data Control
+buttons:188
+viflags2:671088648
+links:[65,67]
+linker inclusion:exclude
+
+LinkerItem[67] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+delimted name:Beta Cmd.lvclass:STYP - Command Data Element.ctl
+type:Control
+buttons:188
+viflags2:536870920
+links:[65]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:STYP - Command Data Element.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass:STYP - Command Data Element.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[68] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\get Command Data Element.vi
+delimted name:Beta Cmd.lvclass:get Command Data Element.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[65,67,66]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\get Command Data Element.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:get Command Data Element.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass:get Command Data Element.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[69] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\set Command Data Element.vi
+delimted name:Beta Cmd.lvclass:set Command Data Element.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[65,67,66]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\set Command Data Element.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:set Command Data Element.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass:set Command Data Element.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[70] (new source)
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\REx - Send Command.vi
+delimted name:Beta Cmd.lvclass:REx - Send Command.vi
+type:Instrument
+buttons:0
+viflags2:536871432
+links:[65,51,52,67,69,59,68]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\REx - Send Command.vi
+itemID:
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:REx - Send Command.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:Beta Cmd.lvclass:REx - Send Command.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[71] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+delimted name:NI_AALBase.lvlib:Butterworth Filter (DBL).vi
+type:Instrument
+buttons:834
+viflags2:512
+links:[72,73,74,75,79]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Butterworth Filter (DBL).vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:Butterworth Filter (DBL).vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[72] (not valid)
+path:C:\Program Files\National Instruments\LabVIEW 2010\help\lvanls.chm
+delimted name:lvanls.chm
+type:Help file
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Source)
+(path:
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:FALSE
+eng_isNonVILink:TRUE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE)
+
+LinkerItem[73] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\NI_AALBase.lvlib
+delimted name:NI_AALBase.lvlib
+type:Library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\NI_AALBase.lvlib
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:NI_AALBase.lvlib
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[74] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+delimted name:NI_AALBase.lvlib:Filter Passband Type.ctl
+type:Control
+buttons:188
+viflags2:536870912
+links:[73]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Filter Passband Type.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:Filter Passband Type.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[75] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+delimted name:NI_AALBase.lvlib:Butterworth Coefficients.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[76,72,73,74,77,78]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Butterworth Coefficients.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:Butterworth Coefficients.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[76] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\resource\lvanlys.dll
+delimted name:lvanlys.dll
+type:Shared library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Source)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\resource\lvanlys.dll
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:lvanlys.dll
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:TRUE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE)
+
+LinkerItem[77] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+delimted name:NI_AALBase.lvlib:Filter Structure Type.ctl
+type:Control
+buttons:188
+viflags2:536870912
+links:[73]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Filter Structure Type.ctl
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:Filter Structure Type.ctl
+preventRename:FALSE
+standardVI:FALSE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[78] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+delimted name:NI_AALBase.lvlib:Select Filter Structure.vi
+type:Instrument
+buttons:0
+viflags2:512
+links:[73,74,77]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Select Filter Structure.vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:Select Filter Structure.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[79] (new source)
+path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+delimted name:NI_AALBase.lvlib:IIR Cascade Filter (DBL).vi
+type:Instrument
+buttons:256
+viflags2:512
+links:[76,72,73]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:IIR Cascade Filter (DBL).vi
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:NI_AALBase.lvlib:IIR Cascade Filter (DBL).vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+[AB_L Preview_PresrvHier](5.977)(145785):
+
+[AB_L Build Preview](6.011)(145801):
+Files:
+data\lvanlys.dll(visible)
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Name.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Release Session.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Session - Root.lvclass
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\set Defaults.vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\NI_AALBase.lvlib
+REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Trim Whitespace.vi
+REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\whitespace.ctl
+REx Listener.exe\1abvi3w\vi.lib\Utility\LVClass\Get LV Class Path.vi
+REx Listener.exe\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+REx Listener.exe\_dev\demos\Alpha Command\get Command Data Element.vi
+REx Listener.exe\_dev\demos\Alpha Command\Obtain Command Event.vi
+REx Listener.exe\_dev\demos\Alpha Command\REx - Send Command.vi
+REx Listener.exe\_dev\demos\Alpha Command\set Command Data Element.vi
+REx Listener.exe\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+REx Listener.exe\_dev\demos\Beta Command\Beta Cmd.lvclass
+REx Listener.exe\_dev\demos\Beta Command\get Command Data Element.vi
+REx Listener.exe\_dev\demos\Beta Command\Obtain Command Event.vi
+REx Listener.exe\_dev\demos\Beta Command\REx - Send Command.vi
+REx Listener.exe\_dev\demos\Beta Command\set Command Data Element.vi
+REx Listener.exe\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+REx Listener.exe\_dev\demos\DEMO - Command Listener.vi
+REx Listener.exe\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+REx Listener.exe\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+REx Listener.exe\_REx\Components\Local Listener Session\get ListenerID.vi
+REx Listener.exe\_REx\Components\Local Listener Session\get REx Event.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+REx Listener.exe\_REx\Components\Local Listener Session\Obtain Session.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Release Session.vi
+REx Listener.exe\_REx\Components\Local Listener Session\send Command Response.vi
+REx Listener.exe\_REx\Components\Local Listener Session\store Listener Command.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+REx Listener.exe\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+REx Listener.exe\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Release Session.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+REx Listener.exe\_REx\Components\Remote Connection Session\Send Command.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+REx Listener.exe\_REx\Components\REx Command Root\get Timeout.vi
+REx Listener.exe\_REx\Components\REx Command Root\get Wait For Response.vi
+REx Listener.exe\_REx\Components\REx Command Root\REx Command - Root.lvclass
+REx Listener.exe\_REx\Components\REx Command Root\send Command Response.vi
+REx Listener.exe\_REx\Components\REx Command Root\set Response Notifier.vi
+REx Listener.exe\_REx\Components\REx Command Root\set Timeout.vi
+REx Listener.exe\_REx\Components\REx Command Root\set Wait For Response.vi
+REx Listener.exe\REx.lvlib
+
+Destination Files:
+REx Listener.exe
+
+
+[AB_L Create Destinations](6.078)(145833):
+
+
+Destination[0]
+destName:REx Listener.exe
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe
+libraryName:
+preserveHierarchy:TRUE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[2]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[3]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[4]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Typedefs
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[5]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[6]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[7]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[8]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[9]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\LVClass
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[10]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[11]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[12]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[13]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[14]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Typedefs
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[15]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\_Templates
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[16]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Typedefs
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[17]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[18]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[19]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\_Templates
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[20]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[21]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[22]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[23]
+destName:
+path:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\baseanly.llb
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+[AB_L Copy Files](6.887)(149504):
+
+SourceItem[3]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+newDelimitedName:Alpha Cmd.lvclass
+oldDelimitedName:Alpha Cmd.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:432
+
+SourceItem[9]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\REx.lvlib
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\REx.lvlib
+newDelimitedName:REx.lvlib
+oldDelimitedName:REx.lvlib
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:263
+
+SourceItem[23]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Session - Root.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Session - Root.lvclass
+newDelimitedName:Session - Root.lvclass
+oldDelimitedName:Session - Root.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:54
+
+SourceItem[59]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Beta Cmd.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\Beta Cmd.lvclass
+newDelimitedName:Beta Cmd.lvclass
+oldDelimitedName:Beta Cmd.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:29
+
+SourceItem[65]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\NI_AALBase.lvlib
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\NI_AALBase.lvlib
+newDelimitedName:NI_AALBase.lvlib
+oldDelimitedName:NI_AALBase.lvlib
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:382
+
+SourceItem[8]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass
+oldDelimitedName:REx.lvlib:Local Listener Session.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:27
+
+SourceItem[10]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\REx Command - Root.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\REx Command - Root.lvclass
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass
+oldDelimitedName:REx.lvlib:REx Command - Root.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:30
+
+SourceItem[47]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass
+oldDelimitedName:REx.lvlib:Remote Connection Session.lvclass
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:44
+
+SourceItem[68]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\resource\lvanlys.dll
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\data\lvanlys.dll
+newDelimitedName:lvanlys.dll
+oldDelimitedName:lvanlys.dll
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:TRUE
+appTopLevel?:FALSE
+processTime:56
+
+SourceItem[66]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+newDelimitedName:NI_AALBase.lvlib:Filter Passband Type.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:11
+
+SourceItem[71]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+newDelimitedName:NI_AALBase.lvlib:IIR Cascade Filter (DBL).vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:11
+
+SourceItem[69]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+newDelimitedName:NI_AALBase.lvlib:Filter Structure Type.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:13
+
+SourceItem[70]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+newDelimitedName:NI_AALBase.lvlib:Select Filter Structure.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:16
+
+SourceItem[67]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+newDelimitedName:NI_AALBase.lvlib:Butterworth Coefficients.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[64]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+newDelimitedName:NI_AALBase.lvlib:Butterworth Filter (DBL).vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:55
+
+SourceItem[46]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Session Handle.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:13
+
+SourceItem[7]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:Session Handle.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:11
+
+SourceItem[2]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+newDelimitedName:Alpha Cmd.lvclass:STYP - Command Data Element.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[5]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\set Command Data Element.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\set Command Data Element.vi
+newDelimitedName:Alpha Cmd.lvclass:set Command Data Element.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[4]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\get Command Data Element.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\get Command Data Element.vi
+newDelimitedName:Alpha Cmd.lvclass:get Command Data Element.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[60]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+newDelimitedName:Beta Cmd.lvclass:STYP - Command Data Element.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:14
+
+SourceItem[62]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\set Command Data Element.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\set Command Data Element.vi
+newDelimitedName:Beta Cmd.lvclass:set Command Data Element.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[53]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Send Command.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Send Command.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Send Command.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[56]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:DVR Based Method.vit
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[31]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+newDelimitedName:Session - Root.lvclass:Session Handle.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:14
+
+SourceItem[52]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Create UID.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[51]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:set Defaults.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[50]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:clear Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[48]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:initialize Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:16
+
+SourceItem[39]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get REx Event.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\get REx Event.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:get REx Event.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[43]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:DVR Based Method.vit
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[40]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:Tool - Check Timeout.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[36]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:set Defaults.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:14
+
+SourceItem[22]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:initialize Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[25]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Name.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Name.vi
+newDelimitedName:Session - Root.lvclass:get Session Name.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[38]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get ListenerID.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\get ListenerID.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:get ListenerID.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[37]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\store Listener Command.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\store Listener Command.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:store Listener Command.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[26]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+newDelimitedName:Session - Root.lvclass:get Session Handle Queue.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[27]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+newDelimitedName:Session - Root.lvclass:set Session Handle Queue.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[32]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+newDelimitedName:Session - Root.lvclass:ROOT - Obtain Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[42]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Obtain Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Obtain Session.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:Obtain Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:27
+
+SourceItem[6]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Obtain Command Event.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\Obtain Command Event.vi
+newDelimitedName:Alpha Cmd.lvclass:Obtain Command Event.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[55]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Service Name).vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:20
+
+SourceItem[54]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Obtain Session (Port).vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[58]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Obtain Command Event.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\Obtain Command Event.vi
+newDelimitedName:Beta Cmd.lvclass:Obtain Command Event.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[30]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\set Defaults.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\set Defaults.vi
+newDelimitedName:Session - Root.lvclass:set Defaults.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[29]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+newDelimitedName:Session - Root.lvclass:clear Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[57]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Release Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Release Session.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Release Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[35]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Release Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Release Session.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:Release Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[34]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:clear Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:15
+
+SourceItem[33]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Release Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Release Session.vi
+newDelimitedName:Session - Root.lvclass:ROOT - Release Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[28]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+newDelimitedName:Session - Root.lvclass:initialize Session Data.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:34
+
+SourceItem[24]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+newDelimitedName:Session - Root.lvclass:_get Session Name for PN.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:22
+
+SourceItem[61]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\get Command Data Element.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\get Command Data Element.vi
+newDelimitedName:Beta Cmd.lvclass:get Command Data Element.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:22
+
+SourceItem[63]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\REx - Send Command.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\REx - Send Command.vi
+newDelimitedName:Beta Cmd.lvclass:REx - Send Command.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[12]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Wait For Response.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Wait For Response.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:set Wait For Response.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:20
+
+SourceItem[14]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Timeout.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Timeout.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:set Timeout.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:18
+
+SourceItem[45]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\REx - Send Command.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\REx - Send Command.vi
+newDelimitedName:Alpha Cmd.lvclass:REx - Send Command.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[15]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\send Command Response.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\send Command Response.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:send Command Response.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:20
+
+SourceItem[44]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\send Command Response.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\send Command Response.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:send Command Response.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[1]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\DEMO - Command Listener.vi
+newDelimitedName:DEMO - Command Listener.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:TRUE
+processTime:61
+
+SourceItem[21]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Response Notifier.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Response Notifier.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:set Response Notifier.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:16
+
+SourceItem[11]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Wait For Response.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\get Wait For Response.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:get Wait For Response.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[13]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Timeout.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\get Timeout.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:get Timeout.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:19
+
+SourceItem[41]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+newDelimitedName:REx.lvlib:Local Listener Session.lvclass:EXPORT - Invoke Command.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:17
+
+SourceItem[19]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\whitespace.ctl
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\whitespace.ctl
+newDelimitedName:whitespace.ctl
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:32
+
+SourceItem[20]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Trim Whitespace.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Trim Whitespace.vi
+newDelimitedName:Trim Whitespace.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:12
+
+SourceItem[18]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+newDelimitedName:Error Cluster From Error Code.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:21
+
+SourceItem[49]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+newDelimitedName:REx.lvlib:Remote Connection Session.lvclass:Validate Remote Session.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:23
+
+SourceItem[17]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\LVClass\Get LV Class Path.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\LVClass\Get LV Class Path.vi
+newDelimitedName:Get LV Class Path.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:13
+
+SourceItem[16]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+newPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+newDelimitedName:REx.lvlib:REx Command - Root.lvclass:compute Command Listener ID.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+processTime:20
+
+[AB_L Save&Close Files](9.383)(152192):
+
+[AB_L Post Prepare Files](9.713)(153691):
+
+SourceItem[0]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\Alpha Cmd.lvclass
+saveLevel:0x0
+saveTime:209
+
+SourceItem[1]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\REx.lvlib
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\REx.lvlib
+saveLevel:0x0
+saveTime:64
+
+SourceItem[2]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Session - Root.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Session - Root.lvclass
+saveLevel:0x0
+saveTime:232
+
+SourceItem[3]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Beta Cmd.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\Beta Cmd.lvclass
+saveLevel:0x0
+saveTime:212
+
+SourceItem[4]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\NI_AALBase.lvlib
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\NI_AALBase.lvlib
+saveLevel:0x0
+saveTime:217
+
+SourceItem[5]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Local Listener Session.lvclass
+saveLevel:0x0
+saveTime:78
+
+SourceItem[6]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\REx Command - Root.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\REx Command - Root.lvclass
+saveLevel:0x0
+saveTime:71
+
+SourceItem[7]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Remote Connection Session.lvclass
+saveLevel:0x0
+saveTime:320
+
+SourceItem[8]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\resource\lvanlys.dll
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\data\lvanlys.dll
+saveLevel:0x0
+saveTime:0
+
+SourceItem[9]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Passband Type.ctl
+saveLevel:0x42000
+saveTime:8
+
+SourceItem[10]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+saveLevel:0x42003
+saveTime:11
+
+SourceItem[11]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Filter Structure Type.ctl
+saveLevel:0x42000
+saveTime:9
+
+SourceItem[12]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Select Filter Structure.vi
+saveLevel:0x42003
+saveTime:17
+
+SourceItem[13]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+saveLevel:0x42003
+saveTime:28
+
+SourceItem[14]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+saveLevel:0x42003
+saveTime:16
+
+SourceItem[15]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Typedefs\Session Handle.ctl
+saveLevel:0x42000
+saveTime:17
+
+SourceItem[16]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Typedefs\Session Handle.ctl
+saveLevel:0x42000
+saveTime:15
+
+SourceItem[17]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\STYP - Command Data Element.ctl
+saveLevel:0x42000
+saveTime:10
+
+SourceItem[18]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\set Command Data Element.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\set Command Data Element.vi
+saveLevel:0x42003
+saveTime:20
+
+SourceItem[19]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\get Command Data Element.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\get Command Data Element.vi
+saveLevel:0x42003
+saveTime:20
+
+SourceItem[20]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\STYP - Command Data Element.ctl
+saveLevel:0x42000
+saveTime:13
+
+SourceItem[21]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\set Command Data Element.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\set Command Data Element.vi
+saveLevel:0x42003
+saveTime:16
+
+SourceItem[22]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Send Command.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Send Command.vi
+saveLevel:0x42003
+saveTime:21
+
+SourceItem[23]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\_Templates\DVR Based Method.vit
+saveLevel:0x42003
+saveTime:23
+
+SourceItem[24]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Typedefs\Session Handle.ctl
+saveLevel:0x42000
+saveTime:15
+
+SourceItem[25]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Create UID.vi
+saveLevel:0x42003
+saveTime:20
+
+SourceItem[26]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\set Defaults.vi
+saveLevel:0x42003
+saveTime:26
+
+SourceItem[27]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\clear Session Data.vi
+saveLevel:0x42003
+saveTime:23
+
+SourceItem[28]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\initialize Session Data.vi
+saveLevel:0x42003
+saveTime:27
+
+SourceItem[29]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get REx Event.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\get REx Event.vi
+saveLevel:0x42003
+saveTime:17
+
+SourceItem[30]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\_Templates\DVR Based Method.vit
+saveLevel:0x42003
+saveTime:15
+
+SourceItem[31]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\Tool - Check Timeout.vi
+saveLevel:0x42003
+saveTime:14
+
+SourceItem[32]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\set Defaults.vi
+saveLevel:0x42003
+saveTime:19
+
+SourceItem[33]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\initialize Session Data.vi
+saveLevel:0x42003
+saveTime:18
+
+SourceItem[34]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Name.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Name.vi
+saveLevel:0x42003
+saveTime:18
+
+SourceItem[35]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\get ListenerID.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\get ListenerID.vi
+saveLevel:0x42003
+saveTime:20
+
+SourceItem[36]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\store Listener Command.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\store Listener Command.vi
+saveLevel:0x42003
+saveTime:16
+
+SourceItem[37]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\get Session Handle Queue.vi
+saveLevel:0x42003
+saveTime:16
+
+SourceItem[38]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\set Session Handle Queue.vi
+saveLevel:0x42003
+saveTime:15
+
+SourceItem[39]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Obtain Session.vi
+saveLevel:0x42003
+saveTime:20
+
+SourceItem[40]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Obtain Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Obtain Session.vi
+saveLevel:0x42003
+saveTime:25
+
+SourceItem[41]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\Obtain Command Event.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\Obtain Command Event.vi
+saveLevel:0x42003
+saveTime:29
+
+SourceItem[42]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Service Name).vi
+saveLevel:0x42003
+saveTime:21
+
+SourceItem[43]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Obtain Session (Port).vi
+saveLevel:0x42003
+saveTime:21
+
+SourceItem[44]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\Obtain Command Event.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\Obtain Command Event.vi
+saveLevel:0x42003
+saveTime:19
+
+SourceItem[45]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\set Defaults.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\set Defaults.vi
+saveLevel:0x42003
+saveTime:18
+
+SourceItem[46]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\clear Session Data.vi
+saveLevel:0x42003
+saveTime:11
+
+SourceItem[47]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Release Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Release Session.vi
+saveLevel:0x42003
+saveTime:24
+
+SourceItem[48]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Release Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Release Session.vi
+saveLevel:0x42003
+saveTime:19
+
+SourceItem[49]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\clear Session Data.vi
+saveLevel:0x42003
+saveTime:21
+
+SourceItem[50]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\ROOT - Release Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\ROOT - Release Session.vi
+saveLevel:0x42003
+saveTime:17
+
+SourceItem[51]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Utilities\initialize Session Data.vi
+saveLevel:0x42003
+saveTime:15
+
+SourceItem[52]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\user.lib\_Session Fwk\Accessors\_get Session Name for PN.vi
+saveLevel:0x42003
+saveTime:12
+
+SourceItem[53]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\get Command Data Element.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\get Command Data Element.vi
+saveLevel:0x42003
+saveTime:27
+
+SourceItem[54]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Beta Command\REx - Send Command.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Beta Command\REx - Send Command.vi
+saveLevel:0x42003
+saveTime:22
+
+SourceItem[55]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Wait For Response.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Wait For Response.vi
+saveLevel:0x42003
+saveTime:10
+
+SourceItem[56]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Timeout.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Timeout.vi
+saveLevel:0x42003
+saveTime:12
+
+SourceItem[57]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\Alpha Command\REx - Send Command.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\Alpha Command\REx - Send Command.vi
+saveLevel:0x42003
+saveTime:26
+
+SourceItem[58]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\send Command Response.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\send Command Response.vi
+saveLevel:0x42003
+saveTime:26
+
+SourceItem[59]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\send Command Response.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\send Command Response.vi
+saveLevel:0x42003
+saveTime:19
+
+SourceItem[60]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\DEMO - Command Listener.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_dev\demos\DEMO - Command Listener.vi
+saveLevel:0x42001
+saveTime:35
+
+SourceItem[61]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\set Response Notifier.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\set Response Notifier.vi
+saveLevel:0x42003
+saveTime:14
+
+SourceItem[62]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Wait For Response.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\get Wait For Response.vi
+saveLevel:0x42003
+saveTime:13
+
+SourceItem[63]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\REx Command Root\get Timeout.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\REx Command Root\get Timeout.vi
+saveLevel:0x42003
+saveTime:9
+
+SourceItem[64]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\EXPORT - Invoke Command.vi
+saveLevel:0x42003
+saveTime:27
+
+SourceItem[65]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\whitespace.ctl
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\whitespace.ctl
+saveLevel:0x42000
+saveTime:6
+
+SourceItem[66]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Trim Whitespace.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Trim Whitespace.vi
+saveLevel:0x42003
+saveTime:12
+
+SourceItem[67]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+saveLevel:0x42003
+saveTime:11
+
+SourceItem[68]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Remote Connection Session\Utilities\Validate Remote Session.vi
+saveLevel:0x42003
+saveTime:19
+
+SourceItem[69]
+sourcePath:C:\Program Files\National Instruments\LabVIEW 2010\vi.lib\Utility\LVClass\Get LV Class Path.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\1abvi3w\vi.lib\Utility\LVClass\Get LV Class Path.vi
+saveLevel:0x42003
+saveTime:12
+
+SourceItem[70]
+sourcePath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+destPath:C:\Users\nkirchne\NIP4\Sales\projects\Utilities\REx\_dev\demos\REx Listener.exe\_REx\Components\Local Listener Session\Utilities\compute Command Listener ID.vi
+saveLevel:0x42003
+saveTime:17
+
+[AB_L Post Save](12.229)(150644):
+
+[AB_L Write Linker](12.251)(150644):
+ArraySizes[6,1,1,1]
+
+FilesToChange:
+REx Listener.exe\1abvi3w\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Coefficients.vi
+REx Listener.exe\1abvi3w\vi.lib\Analysis\3filter.llb\Butterworth Filter (DBL).vi
+REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Trim Whitespace.vi
+REx Listener.exe\1abvi3w\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+REx Listener.exe\1abvi3w\vi.lib\Utility\LVClass\Get LV Class Path.vi
+
+NewPaths (oldName, newName):
+data\lvanlys.dll(lvanlys.dll, lvanlys.dll)
+
+
+[AB_L Set Top Level](12.251)(150644):
+
+[AB_L Close Refs](12.492)(147432):
+
+[AB_L CloseBuild](13.439)(148484):
+
+[AB_L END](14.518)(148484):
+7/27/2011 2:01:18 PM
